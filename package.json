@@ -1,0 +1,24 @@
+{
+  "name": "stripewebhookdocker",
+  "version": "1.0.0",
+  "description": "This is a docker image you can spin up to use when initially developing for stripe.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/all12jus/stripewebhookDocker.git"
+  },
+  "author": "Justin Allen <all12jus@gmail.com>",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/all12jus/stripewebhookDocker/issues"
+  },
+  "homepage": "https://github.com/all12jus/stripewebhookDocker#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "stripe": "^7.5.3"
+  }
+}
